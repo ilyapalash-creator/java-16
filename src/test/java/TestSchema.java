@@ -7,7 +7,7 @@ public class TestSchema {
     @Test
     void shouldValidateAccountsSchema() {
         given()
-                .baseUri("http://localhost:9999")  // порт SUT
+                .baseUri("http://localhost:9999")
                 .when()
                 .get("/api/accounts")
                 .then()
